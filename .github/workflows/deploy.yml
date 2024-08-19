@@ -110,7 +110,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: |
           startsWith(runner.os, 'windows')
-          startsWith(runner.os, 'windows')
         with:
           name: Windows
           path: ./dist/electron/*.*
